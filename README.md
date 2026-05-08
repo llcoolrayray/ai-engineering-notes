@@ -1,2 +1,47 @@
-# ai-engineering-notes
-Notes and experiments on AI Engineering, LLMs, Agents, RAG, and GenAI systems.
+# AI Engineering Notes
+
+> Personal knowledge base for AI engineering — learning paths, book notes, project reflections.
+
+---
+
+## 📚 内容索引
+
+### 学习路径
+
+- **[ai-agent-roadmap/](./ai-agent-roadmap/)** — AI Agent 系统化学习路线
+  - 6 阶段路线:Python → LLM → RAG → Agent → 生产 → 进阶
+  - 最终项目:CVE 监控 Agent
+  - 当前进度:阶段一 ✅
+
+### 看书笔记
+
+- *(待添加)*
+
+### 散点心得
+
+- *(待添加)*
+
+---
+
+## 🎯 这个仓库的定位
+
+- **个人知识库**:不是教程,是**自己的思考过程**
+- **持续累积**:每个学习节点的"判断 vs 事实"都记录下来,方便未来回看时甄别
+- **真实项目导向**:所有学习最终服务于具体项目(目前是 CVE 监控 Agent)
+
+---
+
+## 📝 写作约定
+
+1. 每条**判断**都标注"这是判断,不是事实",方便回看时甄别
+2. 跨主题的总结放进**附录**(`appendix/`),单文件不重复
+3. 代码片段都要带"为什么这样写"的注释——给未来的自己看
+4. **Java 工程师惯性**单独记录(10 年 Java 经验在新领域的迁移阻力)
+
+---
+
+## 🔒 边界声明
+
+- 本仓库内容 100% 个人学习用途
+- 与所有商业项目严格隔离,不复用任何工作内容
+- 数据源全部来自公开资源(论文、官方文档、公开数据集)
