@@ -14,82 +14,91 @@
 
 ---
 
+## ⏱️ 时长说明
+
+> 表格里的"预计时长"是**完成该子项需要的总投入小时数**,不是日历周数。
+> 按每天 1-1.5h 的真实节奏估算。具体某个子项可能更快或更慢,以实际投入为准。
+> **这是判断,不是事实** — 没有真实数据支撑,只是基于"概念难度 + 代码量"的粗估。
+
+---
+
 ## 📚 6 阶段路线
 
-### 阶段一 · Python 快速上手 (1-2 周)
+### 阶段一 · Python 快速上手
 
 **目标**:能读懂 AI 项目代码,能改能跑。用 Cursor 辅助,不需要从零刷语法。
 
-| 知识点 | 标签 | 时长 | 掌握度 |
+| 知识点 | 标签 | 预计时长 | 掌握度 |
 |---|---|---|---|
-| Python 语法速通(Java 对照版) | Python | 3 天 | 速通 |
-| NumPy / Pandas 核心操作 | Python · RAG | 4 天 | 理解 |
-| 异步编程:async / await | Multi-Agent · 生产部署 | 3 天 | 理解 |
+| Python 语法速通(Java 对照版) | Python | 3-5h | 速通 |
+| NumPy / Pandas 核心操作 | Python · RAG | 6-8h | 理解 |
+| 异步编程:async / await | Multi-Agent · 生产部署 | 4-6h | 理解 |
 
 ---
 
-### 阶段二 · LLM 基础 + Prompt 工程 (2-3 周)
+### 阶段二 · LLM 基础 + Prompt 工程
 
 **目标**:能稳定地让 LLM 输出你想要的结果,掌握工具调用机制。
 
-| 知识点 | 标签 | 时长 | 掌握度 |
+| 知识点 | 标签 | 预计时长 | 掌握度 |
 |---|---|---|---|
-| OpenAI / Anthropic API 调用 | RAG · Multi-Agent | 3 天 | 精通 |
-| Prompt 工程:结构化输出 / JSON mode | Multi-Agent · 生产部署 | 3 天 | 精通 |
-| Function Calling / Tool Use | Multi-Agent | 4 天 | 精通 |
-| System Prompt 设计 + 角色稳定性 | 生产部署 · RAG | 3 天 | 理解 |
+| OpenAI / Anthropic API 调用 | RAG · Multi-Agent | 4-6h | 理解 |
+| Prompt 工程:结构化输出 / JSON mode | Multi-Agent · 生产部署 | 4-6h | 理解 |
+| Function Calling / Tool Use | Multi-Agent | 6-8h | 理解 |
+| System Prompt 设计 + 角色稳定性 | 生产部署 · RAG | 4-6h | 理解 |
 
 ---
 
-### 阶段三 · RAG 系统 (3-4 周)
+### 阶段三 · RAG 系统
 
 **目标**:能独立搭建生产级 RAG,理解调优原理,掌握评估方法。
 
-| 知识点 | 标签 | 时长 | 掌握度 |
+| 知识点 | 标签 | 预计时长 | 掌握度 |
 |---|---|---|---|
-| Embedding 原理 + 模型选型 | RAG | 3 天 | 精通 |
-| 向量数据库:Chroma / Milvus / Weaviate | RAG · 生产部署 | 4 天 | 精通 |
-| 文档处理:分块策略 + 元数据设计 | RAG | 3 天 | 理解 |
-| 检索优化:Hybrid Search + Reranking | RAG · 生产部署 | 4 天 | 精通 |
-| RAG 评估:RAGAS 框架 | RAG · 生产部署 | 3 天 | 理解 |
+| NumPy / Pandas 核心操作(从阶段一延期) | RAG | 6-8h | 理解 |
+| Embedding 原理 + 模型选型 | RAG | 4-6h | 精通 |
+| 向量数据库:Chroma / Milvus / Weaviate | RAG · 生产部署 | 6-8h | 精通 |
+| 文档处理:分块策略 + 元数据设计 | RAG | 4-6h | 理解 |
+| 检索优化:Hybrid Search + Reranking | RAG · 生产部署 | 6-8h | 精通 |
+| RAG 评估:RAGAS 框架 | RAG · 生产部署 | 4-6h | 理解 |
 
 ---
 
-### 阶段四 · AI Agent 开发 (3-4 周)
+### 阶段四 · AI Agent 开发
 
 **目标**:能设计并实现单 Agent 和 Multi-Agent 系统,掌握主流框架。
 
-| 知识点 | 标签 | 时长 | 掌握度 |
+| 知识点 | 标签 | 预计时长 | 掌握度 |
 |---|---|---|---|
-| ReAct 框架:思考-行动-观察循环 | Multi-Agent | 3 天 | 精通 |
-| LangGraph:有状态 Agent 编排 | Multi-Agent | 5 天 | 精通 |
-| Agent 记忆系统设计 | Multi-Agent · RAG | 4 天 | 精通 |
-| Multi-Agent 模式:Supervisor / Swarm | Multi-Agent | 5 天 | 精通 |
-| MCP 协议 + 工具生态 | Multi-Agent · 生产部署 | 3 天 | 理解 |
+| ReAct 框架:思考-行动-观察循环 | Multi-Agent | 4-6h | 精通 |
+| LangGraph:有状态 Agent 编排 | Multi-Agent | 8-12h | 精通 |
+| Agent 记忆系统设计 | Multi-Agent · RAG | 6-8h | 精通 |
+| Multi-Agent 模式:Supervisor / Swarm | Multi-Agent | 8-12h | 精通 |
+| MCP 协议 + 工具生态 | Multi-Agent · 生产部署 | 4-6h | 理解 |
 
 ---
 
-### 阶段五 · 生产工程落地 (3-4 周)
+### 阶段五 · 生产工程落地
 
 **目标**:能把 AI Agent 系统做到生产可用,有监控、有告警、能运维。
 
-| 知识点 | 标签 | 时长 | 掌握度 |
+| 知识点 | 标签 | 预计时长 | 掌握度 |
 |---|---|---|---|
-| 可观测性:LangSmith / LangFuse | 生产部署 | 3 天 | 精通 |
-| 可靠性:错误处理 / Fallback / 重试 | 生产部署 · Multi-Agent | 3 天 | 精通 |
-| 成本控制:Token 优化 + 语义缓存 | 生产部署 | 3 天 | 理解 |
-| 服务化:FastAPI + Docker 部署 | 生产部署 | 4 天 | 速通 |
-| 安全性:Prompt 注入防御 + 权限控制 | 生产部署 · Multi-Agent | 3 天 | 理解 |
+| 可观测性:LangSmith / LangFuse | 生产部署 | 4-6h | 精通 |
+| 可靠性:错误处理 / Fallback / 重试 | 生产部署 · Multi-Agent | 4-6h | 精通 |
+| 成本控制:Token 优化 + 语义缓存 | 生产部署 | 4-6h | 理解 |
+| 服务化:FastAPI + Docker 部署 | 生产部署 | 6-8h | 速通 |
+| 安全性:Prompt 注入防御 + 权限控制 | 生产部署 · Multi-Agent | 4-6h | 理解 |
 
 ---
 
 ### 阶段六 · 进阶专项(按需选修)
 
-| 知识点 | 标签 | 时长 | 掌握度 |
+| 知识点 | 标签 | 预计时长 | 掌握度 |
 |---|---|---|---|
-| Graph RAG(知识图谱 + 向量检索) | RAG | 1 周 | 速通 |
-| Fine-tuning:LoRA / QLoRA 微调 | 生产部署 | 1-2 周 | 速通 |
-| 高级规划:Tree of Thoughts / MCTS | Multi-Agent | 1 周 | 速通 |
+| Graph RAG(知识图谱 + 向量检索) | RAG | 8-12h | 速通 |
+| Fine-tuning:LoRA / QLoRA 微调 | 生产部署 | 12-20h | 速通 |
+| 高级规划:Tree of Thoughts / MCTS | Multi-Agent | 8-12h | 速通 |
 
 ---
 
@@ -107,13 +116,13 @@
 
 ## 🧮 数学补充路线
 
-> 先跑起来,遇到数学问题再回头补——实践中的疑问会让数学理解深 3 倍。
+> 按阶段需求触发,不按数学体系排。AI 应用工程师不需要训练数学,只补到够用即可。
 
-| 阶段 | 主题 | 时长 | 推荐资源 |
-|---|---|---|---|
-| 第一阶段(必学) | 概率与统计:条件概率、贝叶斯、信息熵、交叉熵、Precision/Recall/NDCG | 6-8 周 | StatQuest (YouTube) + 周志华《机器学习》附录 |
-| 第二阶段(理解) | 微积分直觉:导数、梯度下降、链式法则 | 2-3 周 | 3Blue1Brown《Essence of Calculus》(YouTube,12 集) |
-| 第三阶段(按需) | 图论基础:DAG、拓扑排序、马尔可夫链 | 2 周 | LangGraph 官方文档 + 实践 |
+| 触发阶段 | 补课内容 | 推荐资源 |
+|---|---|---|
+| 阶段三前置 | 余弦相似度、向量点积 | 3Blue1Brown《线性代数的本质》第 1-2 集 |
+| 阶段三中 | Precision / Recall / NDCG / MRR | RAGAS 官方文档 + 维基百科对应词条 |
+| 阶段六(若做 fine-tuning) | 梯度下降、链式法则 | 3Blue1Brown《神经网络》系列 |
 
 ---
 

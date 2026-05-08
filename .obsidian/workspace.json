@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ai-agent-roadmap/01-python-basics.md",
+                "file": "ai-agent-roadmap/README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-python-basics"
+              "title": "README"
             }
           }
         ]
@@ -185,22 +185,21 @@
   },
   "active": "ecb0268d8b58ea27",
   "lastOpenFiles": [
-    "books/图解大模型：生成式AI原理与实战.pdf",
-    "books/Build a Large Language Model (From Scratch).pdf",
-    "books/中英对照-AI Engineering - Chip Huyen.pdf",
-    "books",
-    "resource",
-    "resource/books/华章数学译丛64线性代数及其应用-原书第5版.pdf",
+    "ai-agent-roadmap/prompt-engineering-rules.md",
+    "ai-agent-roadmap/01-python-basics.md",
+    "ai-agent-roadmap/checkpoint-qa.md",
+    "ai-agent-roadmap/README.md",
     "ai-agent-roadmap/00-roadmap.md",
-    "resource/books/流畅的Python.pdf",
+    "未命名.base",
+    "未命名 1.base",
     "resource/books/图解大模型：生成式AI原理与实战.pdf",
     "resource/books/Build a Large Language Model (From Scratch).pdf",
     "resource/books/中英对照-AI Engineering - Chip Huyen.pdf",
-    "中英对照-AI Engineering - Chip Huyen.pdf",
-    "ai-agent-roadmap/01-python-basics.md",
-    "ai-agent-roadmap/checkpoint-qa.md",
-    "ai-agent-roadmap/prompt-engineering-rules.md",
-    "ai-agent-roadmap/README.md",
+    "resource/books",
+    "resource",
+    "resource/books/华章数学译丛64线性代数及其应用-原书第5版.pdf",
+    "resource/books/流畅的Python.pdf",
+    "resource/books/图解大模型：生成式AI原理与实战.pdf",
     "README.md",
     "README 1.md"
   ]
